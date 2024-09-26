@@ -1,11 +1,11 @@
-name: Hello World Tests
+name: Bash Intro Tests
 
 on:
   push:
   workflow_dispatch:
 
 env:
-  TASK: hello
+  TASK: bash-intro
 
 jobs:
   buildtest:
